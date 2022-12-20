@@ -1,6 +1,6 @@
 import { defineConfig } from 'vite'
 export default defineConfig({
-  base:'./',
+  base:'/myFirstUploadBabylonJS/',
   server: {
     port: 18080,
   },
