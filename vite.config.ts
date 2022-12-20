@@ -1,4 +1,4 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 export default defineConfig({
   base:'/myFirstUploadBabylonJS/',
   server: {
@@ -7,4 +7,4 @@ export default defineConfig({
   build: {
     target: 'esnext'
   }
-})
+});
