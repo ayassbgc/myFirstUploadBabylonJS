@@ -1,4 +1,4 @@
-import './index.scss';
+//import './index.scss';
 
 import { Engine } from '@babylonjs/core';
 import { createScene } from './top_scene.js';
