@@ -1,10 +1,7 @@
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 export default defineConfig({
-  base:'/myFirstUploadBabylonJS/',
+  base:'./',
   server: {
     port: 18080,
-  },
-  build: {
-    target: 'esnext'
   }
-})
+});

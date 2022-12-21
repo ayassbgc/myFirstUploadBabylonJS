@@ -7,7 +7,14 @@ export async function createScene(canvas, engine) {
 
   scene.createDefaultCameraOrLight(true, true, true);
 
-  var ground = BABYLON.MeshBuilder.CreateGround("ground", {width: 6, height: 6}, scene);
+  // Our built-in 'sphere' shape. Params: name, options, scene
+  let sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameter: 0.5}, scene);
+
+  // Move the sphere upward 1/2 its height
+  //sphere.position.y = 1;
+
+  let ground = BABYLON.MeshBuilder.CreateGround("ground", {width: 1, height: 1}, scene);
+  ground.position.y = -0.25;
 
   return scene;
 }
